@@ -137,11 +137,9 @@ AUTH_PASSWORD_VALIDATORS = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://insurance.thrivenig.com,
-    "https://travels.thrivenig.com,
-    
-    
-
-]
+    "https://travels.thrivenig.com",
+    "https://thrivenig.com" 
+    ]
 
 # For development purposes, you can use:
 # CORS_ALLOW_ALL_ORIGINS = True
