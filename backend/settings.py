@@ -25,7 +25,7 @@ SECRET_KEY = '2eb#mru(wykfu3%+t*3n-fp8=tejqml00v*p)sk#z-65*p)_(w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["*", "thrivenig.com", "insurance.thrivenig.com"]
 
 
 # Application definition
@@ -134,15 +134,16 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-# CORS_ALLOWED_ORIGINS = [
-#     "http://localhost:3000",
-#     "https://insurance.thrivenig.com",
-#     "https://travels.thrivenig.com",
-#     "https://thrivenig.com" 
-#     ]
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "https://insurance.thrivenig.com/report-a-claim",
+    "https://travels.thrivenig.com",
+    "https://thrivenig.com" 
+    ]
 
 # For development purposes, you can use:
 CORS_ALLOW_ALL_ORIGINS = True
+
 
 
 # Internationalization
