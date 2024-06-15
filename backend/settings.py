@@ -25,7 +25,7 @@ SECRET_KEY = '2eb#mru(wykfu3%+t*3n-fp8=tejqml00v*p)sk#z-65*p)_(w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*", "thrivenig.com"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
