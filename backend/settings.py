@@ -131,13 +131,13 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # React app running on localhost
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:3000",  # React app running on localhost
 
-]
+# ]
 
 # For development purposes, you can use:
-# CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 # Internationalization
